@@ -1,0 +1,40 @@
+body {
+    width: 90%;
+    max-width: 700px;
+    margin: 20px;
+}
+
+.word {
+    letter-spacing: 2px;
+    text-align:center;
+    line-height:21px;
+    width:21px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Verdana;
+    outline: none;
+}
+
+
+textarea {
+    resize: none;
+}
+
+p {
+    font-family: Georgia;
+    line-height: 1.5em;
+    font-size: 20px;
+}
+
+li {
+    font-family: Georgia;
+    line-height: 1.5em;
+    font-size: 15px;
+}
+
+.numbers {
+    display: grid;
+    grid-template-columns: 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px;
+    text-align:center;
+    margin-top: -10px;
+}

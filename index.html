@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+    <title> Etna's webpage (welcome)</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+
+<body id="mybody">
+ <p> Welcome to my webpage! </p>
+ <p> I am currently a doctoral researcher in Aalto University, supervised by Vanni Noferini. At the moment, I am working with polynomial matrices and their eigenvalues. </p>
+
+ <p> If you believe that I could help you with something, please contact me via email using the address that is the solution to the puzzle below.</p>
+
+<div id ="mydiv">
+</div>
+
+<script>
+
+const fontsize = 27;
+const thewords = ["e","et","etn","etna","gerbil","li","lin","lind","lindy","a","aa","aal","aalt","aalto","iff","fi"];
+
+for (let i = 0; i < 4; i++) {
+    const rr  = document.getElementById("mydiv");
+    const inp = document.createElement("textarea");
+    inp.className = "word";
+    inp.setAttribute('maxlength',thewords[i].length.toString());
+    inp.setAttribute('rows',thewords[i].length.toString());
+    inp.setAttribute('cols','1');
+    rr.appendChild(inp);
+}
+
+const ristig  = document.getElementById("mydiv");
+const inp1 = document.createElement("textarea");
+inp1.className = "word";
+inp1.setAttribute('maxlength',1);
+inp1.setAttribute('rows','1');
+inp1.setAttribute('cols','1');
+inp1.setAttribute('placeholder','.');
+inp1.setAttribute('readonly',true);
+ristig.appendChild(inp1);
+
+for (let i = 4; i < 9; i++) {
+    const rr  = document.getElementById("mydiv");
+    const inp = document.createElement("textarea");
+    inp.className = "word";
+    inp.setAttribute('maxlength',thewords[i].length.toString());
+    inp.setAttribute('rows',thewords[i].length.toString());
+    inp.setAttribute('cols',1);
+    rr.appendChild(inp);
+}
+
+const inp2 = document.createElement("textarea");
+inp2.className = "word";
+inp2.setAttribute('maxlength',1);
+inp2.setAttribute('rows','1');
+inp2.setAttribute('cols','1');
+inp2.setAttribute('placeholder','@');
+inp2.setAttribute('readonly',true);
+ristig.appendChild(inp2);
+
+for (let i = 9; i < 14; i++) {
+    const rr  = document.getElementById("mydiv");
+    const inp = document.createElement("textarea");
+    inp.className = "word";
+    inp.setAttribute('maxlength',thewords[i].length.toString());
+    inp.setAttribute('rows',thewords[i].length.toString());
+    inp.setAttribute('cols',1);
+    rr.appendChild(inp);
+}
+
+const inp3 = document.createElement("textarea");
+inp3.className = "word";
+inp3.setAttribute('maxlength',1);
+inp3.setAttribute('rows','1');
+inp3.setAttribute('cols','1');
+inp3.setAttribute('placeholder','.');
+inp3.setAttribute('readonly',true);
+ristig.appendChild(inp3);
+
+for (let i = 14; i < 16; i++) {
+    const rr  = document.getElementById("mydiv");
+    const inp = document.createElement("textarea");
+    inp.className = "word";
+    inp.setAttribute('maxlength',thewords[i].length.toString());
+    inp.setAttribute('rows',thewords[i].length.toString());
+    inp.setAttribute('cols',1);
+    rr.appendChild(inp);
+}
+
+</script>
+
+<div class="numbers">  
+    <p style="font-family:Arial;font-size:14px;"> 1 </p>
+    <p style="font-family:Arial;font-size:14px;"> 2 </p>
+    <p style="font-family:Arial;font-size:14px;"> 3 </p>
+    <p style="font-family:Arial;font-size:14px;"> 4 </p>
+    <p style="font-family:Arial;font-size:14px;">  </p>
+    <p style="font-family:Arial;font-size:14px;"> 5 </p>
+    <p style="font-family:Arial;font-size:14px;"> 6 </p>
+    <p style="font-family:Arial;font-size:14px;"> 7 </p>
+    <p style="font-family:Arial;font-size:14px;"> 8 </p>
+    <p style="font-family:Arial;font-size:14px;"> 9 </p>
+    <p style="font-family:Arial;font-size:14px;">  </p>
+    <p style="font-family:Arial;font-size:14px;"> 10 </p>
+    <p style="font-family:Arial;font-size:14px;"> 11 </p>
+    <p style="font-family:Arial;font-size:14px;"> 12 </p>
+    <p style="font-family:Arial;font-size:14px;"> 13 </p>
+    <p style="font-family:Arial;font-size:14px;"> 14 </p>
+    <p style="font-family:Arial;font-size:14px;">  </p>
+    <p style="font-family:Arial;font-size:14px;"> 15 </p>
+    <p style="font-family:Arial;font-size:14px;"> 16 </p>
+</div>
+
+
+<div style="width:80%;margin-left:5%"> 
+    <p style="margin:0;font-size: 15px;"> 1. Next word but without the last letter </p>
+    <p style="margin:0;font-size: 15px;"> 2. Next word but without the last letter </p>
+    <p  style="margin:0;font-size: 15px;"> 3. Next word but without the last letter </p>
+    <p  style="margin:0;font-size: 15px;"> 4. My first name </p>
+    <p  style="margin:0;font-size: 15px;"> 5. My favourite animal </p>
+    <p  style="margin:0;font-size: 15px;"> 6. Next word but without the last letter </p>
+    <p  style="margin:0;font-size: 15px;"> 7. Next word but without the last letter </p>
+    <p  style="margin:0;font-size: 15px;"> 8. Next word but without the last letter </p>
+    <p  style="margin:0;font-size: 15px;"> 9. My surname </p>
+    <p  style="margin:0;font-size: 15px;"> 10. First letter of the alphabet </p>
+    <p  style="margin:0;font-size: 15px;"> 11. Double the previous </p>
+    <p  style="margin:0;font-size: 15px;"> 12. Next word but without the last letter </p>
+    <p  style="margin:0;font-size: 15px;"> 13. Next word but without the last letter </p>
+    <p  style="margin:0;font-size: 15px;"> 14. The university where I currently work at </p>
+    <p  style="margin:0;font-size: 15px;"> 15. If and only if </p>
+    <p  style="margin:0;font-size: 15px;"> 16. The two-letter representation of Finland </p>
+</div>
+
+ <p> Here is a list of articles I have worked on: </p>
+
+ <ul>
+    <li> On rank-2 nonnegative matrix factorizations and their variants, with Vanni Noferini and Paul Van Dooren, 2025 (<a href="https://arxiv.org/abs/2507.20612" target="_blank">arXiv</a>) </li>
+ </ul>
+
+ <p> Check out my <a href="https://github.com/EtnaLindy" target="_blank">GitHub page</a> if you like! Barely anything there yet though :) </p>
+
+
+ <button onclick="changeColors()"> Not colorful enough </button>
+ <button onclick="backtowhite()"> Back to white please </button>
+
+ <script>  
+    function changeColors() {
+        const body = document.getElementById("mybody");
+        const r = Math.floor(Math.random()*255);
+        const g = Math.floor(Math.random()*255);
+        const b = Math.floor(Math.random()*255);
+        body.style.backgroundColor = "#" + r.toString(16) + g.toString(16) + b.toString(16);
+    }
+
+    function backtowhite() {
+        const body = document.getElementById("mybody");
+        body.style.backgroundColor = "#FFFFFF";
+    }
+ </script>
+
+
+</body>
+
+
+
+</html>
