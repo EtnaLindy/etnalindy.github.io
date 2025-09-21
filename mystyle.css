@@ -13,9 +13,10 @@ body {
 
 .word {
     text-align:center;
-    width:3%;
-    line-height:100%;
-    font-size: 100%;
+    box-sizing: border-box;
+    width:5%;
+    line-height:120%;
+    font-size: 120%;
     text-transform: uppercase;
     font-family: "Courier New";
     outline: none;
@@ -37,7 +38,9 @@ li {
 .numbers {
     display: grid;
     width: 100%;
-    grid-template-columns:  4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8%;
+    max-width:600px;
+    box-sizing: border-box;
+    grid-template-columns:  5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
     text-align:center;
     margin-top: -10px;
 }
