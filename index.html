@@ -14,8 +14,8 @@
 
  <p> If you believe that I could help you with something, please contact me via email using the address that is the solution to the puzzle below.</p>
 
-<div id ="mydiv">
-</div>
+<div id ="mydiv" class="ristikkocontainer">
+
 
 <script>
 
@@ -48,7 +48,9 @@ for (let i = 4; i < 9; i++) {
     inp.className = "word";
     inp.setAttribute('maxlength',thewords[i].length.toString());
     inp.setAttribute('rows',thewords[i].length.toString());
+    inp.setAttribute('data-limit-rows',true);
     inp.setAttribute('cols',1);
+    inp.setAttribute('wrap',"HARD");
     rr.appendChild(inp);
 }
 
@@ -114,7 +116,6 @@ for (let i = 14; i < 16; i++) {
     <p style="font-family:Arial;font-size:14px;"> 16 </p>
 </div>
 
-
 <div style="width:80%;margin-left:5%"> 
     <p style="margin:0;font-size: 15px;"> 1. Next word but without the last letter </p>
     <p style="margin:0;font-size: 15px;"> 2. Next word but without the last letter </p>
@@ -132,6 +133,8 @@ for (let i = 14; i < 16; i++) {
     <p  style="margin:0;font-size: 15px;"> 14. The university where I currently work at </p>
     <p  style="margin:0;font-size: 15px;"> 15. If and only if </p>
     <p  style="margin:0;font-size: 15px;"> 16. The two-letter representation of Finland </p>
+</div>
+
 </div>
 
  <p> Here is a list of articles I have worked on: </p>

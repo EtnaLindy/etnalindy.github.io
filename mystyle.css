@@ -4,19 +4,21 @@ body {
     margin: 20px;
 }
 
-.word {
-    letter-spacing: 2px;
-    text-align:center;
-    line-height:21px;
-    width:21px;
-    font-size: 18px;
-    text-transform: uppercase;
-    font-family: Verdana;
-    outline: none;
+.ristikkocontainer {
+    align-items: center;
+    width: 100%;
+    max-width:600px;
 }
 
 
-textarea {
+.word {
+    text-align:center;
+    width:3%;
+    line-height:100%;
+    font-size: 100%;
+    text-transform: uppercase;
+    font-family: "Courier New";
+    outline: none;
     resize: none;
 }
 
@@ -34,7 +36,8 @@ li {
 
 .numbers {
     display: grid;
-    grid-template-columns: 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px 29px;
+    width: 100%;
+    grid-template-columns:  4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8% 4.8%;
     text-align:center;
     margin-top: -10px;
 }
