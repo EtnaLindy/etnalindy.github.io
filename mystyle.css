@@ -7,7 +7,7 @@ body {
 .ristikkocontainer {
     align-items: center;
     width: 100%;
-    max-width:600px;
+    max-width:500px;
 }
 
 
@@ -16,7 +16,7 @@ body {
     box-sizing: border-box;
     width:5%;
     line-height: 100%;
-    font-size: 100%;
+    font-size:110%;
     text-transform: uppercase;
     font-family: "Courier New";
     outline: none;
@@ -44,7 +44,7 @@ li {
 .numbers {
     display: grid;
     width: 100%;
-    max-width:600px;
+    max-width:500px;
     box-sizing: border-box;
     grid-template-columns:  5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
     text-align:center;
